@@ -1,0 +1,50 @@
+
+.main_container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 800px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.left_container{
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  float: left;
+}
+
+.right_container{
+  float: left;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.answer_correct_text {
+  margin-top: 100px;
+}
+
+.answer_incorrect_text{
+  margin-top: 100px;
+}
+
+.button_style{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.button_style:hover{
+  background-color: black;
+  color: white;
+}
